@@ -1,0 +1,5 @@
+service:
+  name: service-test2
+  identifier: servicetest2
+  orgIdentifier: a_org
+  projectIdentifier: testabhi
