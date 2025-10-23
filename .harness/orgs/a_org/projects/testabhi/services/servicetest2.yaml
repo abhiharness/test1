@@ -5,3 +5,4 @@ service:
   projectIdentifier: testabhi
   tags:
     tag1: ""
+    tag2: ""
