@@ -3,3 +3,5 @@ service:
   identifier: servicetest2
   orgIdentifier: a_org
   projectIdentifier: testabhi
+  tags:
+    tag1: ""
