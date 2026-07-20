@@ -7,7 +7,9 @@ metadata:
 spec:
   template:
     spec:
+      serviceAccountName: qa-automation-deployment-token@qa-target.iam.gserviceaccount.com
       containers:
         - image: <image>
           ports:
             - containerPort: 8080
+              name: http1
