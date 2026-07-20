@@ -7,7 +7,6 @@ metadata:
 spec:
   template:
     spec:
-      serviceAccountName: pratyush-sa@qa-target.iam.gserviceaccount.com
       containers:
         - image: <image>
           ports:
