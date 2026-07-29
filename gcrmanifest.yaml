@@ -1,7 +1,7 @@
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
-  name: <+variable.servicename_gcr>
+  name: <+serviceVariables.servicename>
   annotations:
     run.googleapis.com/minScale: '2'
 spec:
